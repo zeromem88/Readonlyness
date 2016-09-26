@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\aavorobev\documents\visual studio 2015\projects\readonlyruleloader\main.cpp(73): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  ReadOnlyRuleLoader.vcxproj -> C:\Users\aavorobev\Documents\Visual Studio 2015\Projects\ReadOnlyness\x64\Debug\ReadOnlyRuleLoader.exe
+  ReadOnlyRuleLoader.vcxproj -> C:\Users\aavorobev\Documents\Visual Studio 2015\Projects\ReadOnlyness\x64\Debug\ReadOnlyRuleLoader.pdb (Full PDB)

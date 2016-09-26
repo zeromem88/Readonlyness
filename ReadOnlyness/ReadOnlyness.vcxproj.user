@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TestCertificate>CN="WDKTestCert AAVorobev,131187577634396457" | 69BD29F388F6F0BAE1562F835406771500FAF1D7</TestCertificate>
+    <DbgengKernelMachineName>Test</DbgengKernelMachineName>
+    <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <EnableVerifier>False</EnableVerifier>
+    <AllDrivers>True</AllDrivers>
+    <VerifyProjectOutput>False</VerifyProjectOutput>
+    <VerifyDrivers />
+    <VerifyFlags>133563</VerifyFlags>
+    <TestCertificate>CN="WDKTestCert AAVorobev,131187577634396457" | 69BD29F388F6F0BAE1562F835406771500FAF1D7</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <RemoveDriver>True</RemoveDriver>
+    <InstallMode>None</InstallMode>
+    <HardwareIdString />
+    <CommandLine />
+    <ScriptPath>C:\Program Files (x86)\Windows Kits\10\Testing\Tests\Utilities\DefaultDriverPackageInstallationTask.dll</ScriptPath>
+    <DbgengRemoteMachineName>Test</DbgengRemoteMachineName>
+    <DbgengKernelMachineName>Test</DbgengKernelMachineName>
+    <DeployFiles />
+    <ScriptName>Microsoft.DriverKit.DefaultDriverPackageInstallationClass.PerformDefaultDriverPackageInstallation</ScriptName>
+    <ScriptDeviceQuery />
+    <TestCertificate>CN="WDKTestCert AAVorobev,131187577634396457" | 69BD29F388F6F0BAE1562F835406771500FAF1D7</TestCertificate>
+  </PropertyGroup>
+</Project>

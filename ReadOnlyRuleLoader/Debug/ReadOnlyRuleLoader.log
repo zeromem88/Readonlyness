@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _FilterConnectCommunicationPort@24 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _FilterSendMessage@24 referenced in function _main
+C:\Users\aavorobev\Documents\Visual Studio 2015\Projects\ReadOnlyness\Debug\ReadOnlyRuleLoader.exe : fatal error LNK1120: 2 unresolved externals
